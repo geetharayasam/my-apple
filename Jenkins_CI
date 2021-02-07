@@ -5,8 +5,8 @@ pipeline {
 		maven 'M3.6.3'
 	}
 
-/*	stages {
-		stage('Checkout') {
+	stages {
+	/*	stage('Checkout') {
 			steps {
 				git url: 'https://github.com/nagarajubugga/my-apple.git'
 			}
