@@ -5,13 +5,13 @@ pipeline {
 		maven 'M3.6.3'
 	}
 
-	stages {
+/*	stages {
 		stage('Checkout') {
 			steps {
 				git url: 'https://github.com/nagarajubugga/my-apple.git'
 			}
 		}
-
+*/
 		stage('Maven Build') {
 			input {
                 message "Should we continue?"
